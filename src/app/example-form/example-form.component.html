@@ -1,0 +1,21 @@
+<h2>This is an example form component with two required fields</h2>
+<form [formGroup]="exampleForm" novalidate>
+  <label> Name:
+    <input type="text" formControlName="firstName">
+  </label>
+  <label> Middle Name (optional):
+    <input type="text" formControlName="middleName">
+  </label>
+  <label> Last Name:
+    <input type="text" formControlName="lastName">
+  </label>
+  <button (click)="resetForm()">Reset Form</button>
+</form>
+<h3>Form values</h3>
+<p>
+  {{ exampleForm.value | json }}
+</p>
+<h3>And the status</h3>
+<p>
+  {{ exampleForm.status | json }}
+</p>
