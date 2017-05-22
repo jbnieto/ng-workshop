@@ -4,9 +4,8 @@ import { HttpModule } from '@angular/http';
 import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { AppRoutingModule, routedComponents } from './app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 
-import { ExampleFeatureModule } from './example-feature/example-feature.module';
 
 @NgModule({
   imports: [
@@ -14,11 +13,9 @@ import { ExampleFeatureModule } from './example-feature/example-feature.module';
     HttpModule,
     ReactiveFormsModule,
     AppRoutingModule,
-    ExampleFeatureModule
   ],
   declarations: [
     AppComponent,
-    routedComponents
   ],
   bootstrap: [AppComponent],
 })
