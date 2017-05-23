@@ -5,6 +5,12 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { ArtistsListComponent } from './artists-list/artists-list.component';
+import { ArtistComponent } from './artist/artist.component';
+import { AlbumComponent } from './album/album.component';
 
 
 @NgModule({
@@ -16,6 +22,12 @@ import { AppRoutingModule } from './app-routing.module';
   ],
   declarations: [
     AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    HomeComponent,
+    ArtistsListComponent,
+    ArtistComponent,
+    AlbumComponent,
   ],
   bootstrap: [AppComponent],
 })

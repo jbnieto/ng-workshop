@@ -37,6 +37,7 @@
     "zone.js": "^0.7.4"
   },
   "devDependencies": {
+    "@angular/cli": "^1.0.4",
     "@types/core-js": "^0.9.35",
     "@types/jasmine": "^2.5.41",
     "@types/karma": "^0.13.33",

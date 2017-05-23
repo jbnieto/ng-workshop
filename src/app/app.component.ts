@@ -7,7 +7,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./app.component.less']
 })
 export class AppComponent {
-  public greeting = 'Hello Deloitte!';
+  public greeting = 'Hello!';
 
   changeGreeting() {
     this.greeting = 'You button-clicker!';
