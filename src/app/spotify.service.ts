@@ -19,13 +19,23 @@ export class SpotifyService {
   }
 
   searchArtistByName(term: string): Observable<any> {
-      return this.http.get(this.config.apiUrl + '?q=' + term + '&type=artist')
+      return this.http.get(this.config.apiUrl + 'search?q=' + term + '&type=artist')
       .map(this.extractData);
+  }
+
+  searchAlbumsByIdArtist(id: string): Observable<any> {
+      return this.http.get(this.config.apiUrl + 'artists/' + id + '/albums')
+      .map(this.extractDataAlbums);
   }
     
   private extractData(res: Response) {
       let body = res.json();
       return body.artists.items || { };
+  }
+
+  private extractDataAlbums(res: Response) {
+      let body = res.json();
+      return body.items || { };
   }
 
 }

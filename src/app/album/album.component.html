@@ -1,3 +1,4 @@
-<p>
-  album works!
-</p>
+<div *ngFor="let item of albums">
+      {{item.name}}
+      <img *ngIf="item.images[2]" [src]="item.images[2]?.url" />
+</div>

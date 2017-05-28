@@ -1,4 +1,6 @@
 <div *ngFor="let item of spotify">
-    {{item.name}}
-    <img *ngIf="item.images[3]" [src]="item.images[3]?.url" />
+    <a routerLink="/album/{{item.id}}" routerLinkActive="active">
+      {{item.name}}
+      <img *ngIf="item.images[2]" [src]="item.images[2]?.url" />
+    </a>
 </div>

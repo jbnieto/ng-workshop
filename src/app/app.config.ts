@@ -1,3 +1,3 @@
 export class AppConfig {
-    public readonly apiUrl = 'https://api.spotify.com/v1/search';
+    public readonly apiUrl = 'https://api.spotify.com/v1/';
 };
