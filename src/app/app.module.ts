@@ -12,6 +12,8 @@ import { ArtistsListComponent } from './artists-list/artists-list.component';
 import { ArtistComponent } from './artist/artist.component';
 import { AlbumComponent } from './album/album.component';
 
+import { AppConfig } from './app.config';
+import { SpotifyService } from './spotify.service';
 
 @NgModule({
   imports: [
@@ -28,6 +30,10 @@ import { AlbumComponent } from './album/album.component';
     ArtistsListComponent,
     ArtistComponent,
     AlbumComponent,
+  ],
+  providers: [
+    AppConfig,
+    SpotifyService,
   ],
   bootstrap: [AppComponent],
 })
