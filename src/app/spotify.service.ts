@@ -18,13 +18,8 @@ export class SpotifyService {
     this.http = http
   }
 
-  getEulas(): Observable<any> {
+  getSongs(): Observable<any> {
       return this.http.get(this.config.apiUrl + "?q=michael&type=artist")
-      .map(this.extractData);
-  }
-
-  getApps(): Observable<any> {
-      return this.http.get(this.config.apiUrl + "?q=jackson&type=artist")
       .map(this.extractData);
   }
     

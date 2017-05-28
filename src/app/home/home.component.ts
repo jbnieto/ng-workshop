@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
   ) { }
 
   getEulas(): void {
-    this.spotifyService.getEulas()
+    this.spotifyService.getSongs()
 			.subscribe(val => this.spotify = val);
   }
 
