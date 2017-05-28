@@ -35,8 +35,7 @@ export class HomeComponent implements OnInit {
       )
       .subscribe(
         data => {
-        console.log('Form changes', data);
-        //spotify = data;
+        this.spotify = data;
       }
     )
 

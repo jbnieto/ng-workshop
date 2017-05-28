@@ -1,3 +1,4 @@
-<p>
-  artists-list works!
-</p>
+<div *ngFor="let item of spotify">
+    {{item.name}}
+    <img *ngIf="item.images[3]" [src]="item.images[3]?.url" />
+</div>
