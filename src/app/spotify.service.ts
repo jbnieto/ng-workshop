@@ -27,6 +27,11 @@ export class SpotifyService {
       return this.http.get(this.config.apiUrl + 'artists/' + id + '/albums')
       .map(this.extractDataAlbums);
   }
+
+  searchSongsByIdAlbum(id: string): Observable<any> {
+      return this.http.get(this.config.apiUrl + 'albums/' + id )
+      .map(this.extractDataSongs);
+  }
     
   private extractData(res: Response) {
       let body = res.json();
@@ -36,6 +41,11 @@ export class SpotifyService {
   private extractDataAlbums(res: Response) {
       let body = res.json();
       return body.items || { };
+  }
+
+  private extractDataSongs(res: Response) {
+      let body = res.json();
+      return body.tracks.items || { };
   }
 
 }

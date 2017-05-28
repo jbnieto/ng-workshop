@@ -10,10 +10,11 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ArtistsListComponent } from './artists-list/artists-list.component';
 import { ArtistComponent } from './artist/artist.component';
-import { AlbumComponent } from './album/album.component';
+import { AlbumsComponent } from './albums/albums.component';
 
 import { AppConfig } from './app.config';
 import { SpotifyService } from './spotify.service';
+import { SongsComponent } from './songs/songs.component';
 
 @NgModule({
   imports: [
@@ -29,7 +30,8 @@ import { SpotifyService } from './spotify.service';
     HomeComponent,
     ArtistsListComponent,
     ArtistComponent,
-    AlbumComponent,
+    AlbumsComponent,
+    SongsComponent,
   ],
   providers: [
     AppConfig,
