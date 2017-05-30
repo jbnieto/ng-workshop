@@ -11,41 +11,56 @@ import { AppConfig } from './app.config';
 @Injectable()
 export class SpotifyService {
 
-  constructor(
-      private http: Http,
-      private config: AppConfig
-      ) { 
-    this.http = http
-  }
+    constructor(
+        private http: Http,
+        private config: AppConfig
+        ) { 
+        this.http = http
+    }
 
-  searchArtistByName(term: string): Observable<any> {
-      return this.http.get(this.config.apiUrl + 'search?q=' + term + '&type=artist')
-      .map(this.extractData);
-  }
+    searchArtistByName(term: string): Observable<any> {
+        let headers = new Headers();
+        headers.append('Content-Type', 'application/json');
+        let authToken = this.config.token;
+        headers.append('Authorization', `Bearer ${authToken}`);
+        
+        return this.http.get(this.config.apiUrl + 'search?q=' + term + '&type=artist', { headers })
+        .map(this.extractData);
+    }
 
-  searchAlbumsByIdArtist(id: string): Observable<any> {
-      return this.http.get(this.config.apiUrl + 'artists/' + id + '/albums')
-      .map(this.extractDataAlbums);
-  }
+    searchAlbumsByIdArtist(id: string): Observable<any> {
+        let headers = new Headers();
+        headers.append('Content-Type', 'application/json');
+        let authToken = this.config.token;
+        headers.append('Authorization', `Bearer ${authToken}`);
 
-  searchSongsByIdAlbum(id: string): Observable<any> {
-      return this.http.get(this.config.apiUrl + 'albums/' + id )
-      .map(this.extractDataSongs);
-  }
-    
-  private extractData(res: Response) {
-      let body = res.json();
-      return body.artists.items || { };
-  }
+        return this.http.get(this.config.apiUrl + 'artists/' + id + '/albums', { headers })
+        .map(this.extractDataAlbums);
+    }
 
-  private extractDataAlbums(res: Response) {
-      let body = res.json();
-      return body.items || { };
-  }
+    searchSongsByIdAlbum(id: string): Observable<any> {
+        let headers = new Headers();
+        headers.append('Content-Type', 'application/json');
+        let authToken = this.config.token;
+        headers.append('Authorization', `Bearer ${authToken}`);
 
-  private extractDataSongs(res: Response) {
-      let body = res.json();
-      return body.tracks.items || { };
-  }
+        return this.http.get(this.config.apiUrl + 'albums/' + id , { headers })
+        .map(this.extractDataSongs);
+    }
+
+    private extractData(res: Response) {
+        let body = res.json();
+        return body.artists.items || { };
+    }
+
+    private extractDataAlbums(res: Response) {
+        let body = res.json();
+        return body.items || { };
+    }
+
+    private extractDataSongs(res: Response) {
+        let body = res.json();
+        return body.tracks.items || { };
+    }
 
 }
