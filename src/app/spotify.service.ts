@@ -11,21 +11,26 @@ import { AppConfig } from './app.config';
 @Injectable()
 export class SpotifyService {
 
-  constructor(
-      private http: Http,
-      private config: AppConfig
-      ) { 
+    constructor(
+        private http: Http,
+        private config: AppConfig
+        ) { 
     this.http = http
-  }
+    }
 
-  searchArtistByName(term: string): Observable<any> {
-      return this.http.get(this.config.apiUrl + '?q=' + term + '&type=artist')
-      .map(this.extractData);
-  }
-    
-  private extractData(res: Response) {
-      let body = res.json();
-      return body.artists.items || { };
-  }
+    searchArtistByName(term: string): Observable<any> {
+        let headers = new Headers();
+        headers.append('Content-Type', 'application/json');
+        let authToken = this.config.token;
+        headers.append('Authorization', `Bearer ${authToken}`);
+
+        return this.http.get(this.config.apiUrl + 'search?q=' + term + '&type=artist', { headers })
+        .map(this.extractData);
+    }
+
+    private extractData(res: Response) {
+        let body = res.json();
+        return body.artists.items || { };
+    }
 
 }
