@@ -1,6 +1,15 @@
-<div *ngFor="let item of spotify">
-    <a routerLink="/albums/{{item.id}}" routerLinkActive="active">
-      {{item.name}}
-      <img *ngIf="item.images[2]" [src]="item.images[2]?.url" />
-    </a>
+<div class="card-columns">
+  <div class="card" *ngFor="let item of spotify">
+      <a routerLink="/artists/{{item.id}}">
+        <img class="card-img-top img-fluid" *ngIf="item.images[1]" [src]="item.images[1]?.url"/>
+        <div class="card-block">
+          <h4 class="card-title">{{item.name}}</h4>
+          <p class="card-text">
+              <small class="text-muted" *ngFor="let genre of item.genres">
+                {{genre}}
+              </small>
+          </p>
+        </div>
+      </a>
+  </div>
 </div>

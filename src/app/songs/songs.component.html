@@ -1,3 +1,18 @@
-<div *ngFor="let item of songs">
-    {{item.name}}
-S</div>
+<div class="container-fluid">
+    
+    <div *ngIf="images" class="jumbotron">
+        <img [src]="images[1].url" />
+        <h1>{{name}}</h1>
+        <small>
+            {{release_date | date }}
+        </small>
+    </div>
+
+    <div class="card-columns">
+            <div class="card" *ngFor="let item of songs">
+                <div class="card-block">
+                    <h4 class="card-title">{{item.name}}</h4>
+                </div>
+            </div>
+      </div>
+</div>

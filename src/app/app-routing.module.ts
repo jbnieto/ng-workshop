@@ -7,7 +7,7 @@ import { SongsComponent } from './songs/songs.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', component: HomeComponent },
-  { path: 'albums/:id', component: AlbumsComponent },
+  { path: 'artists/:id', component: AlbumsComponent },
   { path: 'songs/:id', component: SongsComponent },
 ];
 

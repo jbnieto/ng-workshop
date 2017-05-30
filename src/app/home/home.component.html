@@ -1,4 +1,14 @@
-<form [formGroup]="searchForm">
-  <input formControlName="search" placeholder="Search">
-</form>
-<app-artists-list [spotify]="spotify"></app-artists-list>
+<div class="container-fluid">
+  <div class="jumbotron">
+    <h1>Welcome to Spotisearch</h1>
+    <p class="lead">
+      Search your favorite songs over Spotify, just enter an artist's name in the following search box and enjoy
+    </p>
+    <form [formGroup]="searchForm">
+      <div class="input-group input-group-lg">
+        <input  type="text" class="form-control" placeholder="Username" formControlName="search" placeholder="Type the name of your favorite artist">
+      </div>
+    </form>
+    <app-artists-list [spotify]="spotify"></app-artists-list>
+  </div>
+</div>

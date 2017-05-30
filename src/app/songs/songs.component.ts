@@ -13,6 +13,9 @@ import { SpotifyService } from '../spotify.service';
 })
 export class SongsComponent implements OnInit {
   songs: Songs;
+  name: string;
+  release_date: string[];
+  images: string[];
 
   constructor(
     private spotifyService: SpotifyService,
@@ -23,7 +26,13 @@ export class SongsComponent implements OnInit {
   ngOnInit() {
     this.route.params
         .switchMap((params: Params) => this.spotifyService.searchSongsByIdAlbum( params['id'] ))
-        .subscribe(data => this.songs = data);
+        .subscribe(
+          (data) => {
+            this.songs = data.tracks.items,
+            this.name = data.name,
+            this.release_date = data.release_date,
+            this.images = data.images
+          }
+        );
   }
-
 }
