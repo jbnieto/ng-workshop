@@ -1,17 +1,17 @@
 import { Spotify } from './spotify';
   
-export const EULAS: Spotify[] = [
+export const SPOTIFY: Spotify[] = [
   
 {
   "artists" : {
-    "href" : "https://api.spotify.com/v1/search?query=michael&type=artist&offset=0&limit=20",
+    "href" : "https://api.spotify.com/v1/search?query=michael&type=artist&market=CO&offset=0&limit=20",
     "items" : [ {
       "external_urls" : {
         "spotify" : "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
       },
       "followers" : {
         "href" : null,
-        "total" : 3436008
+        "total" : 3459587
       },
       "genres" : [ "dance pop", "pop", "pop christmas" ],
       "href" : "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
@@ -34,7 +34,7 @@ export const EULAS: Spotify[] = [
         "width" : 64
       } ],
       "name" : "Michael Jackson",
-      "popularity" : 81,
+      "popularity" : 82,
       "type" : "artist",
       "uri" : "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
     }, {
@@ -43,7 +43,7 @@ export const EULAS: Spotify[] = [
       },
       "followers" : {
         "href" : null,
-        "total" : 2021324
+        "total" : 2028417
       },
       "genres" : [ "adult standards", "canadian pop", "lounge", "neo mellow", "pop", "pop christmas" ],
       "href" : "https://api.spotify.com/v1/artists/1GxkXlMwML1oSg5eLPiAz3",
@@ -67,43 +67,71 @@ export const EULAS: Spotify[] = [
       "uri" : "spotify:artist:1GxkXlMwML1oSg5eLPiAz3"
     }, {
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/6ghiFYcwn2Vzl6K50U0UPz"
+        "spotify" : "https://open.spotify.com/artist/19ra5tSw0tWufvUp8GotLo"
       },
       "followers" : {
         "href" : null,
-        "total" : 30074
+        "total" : 489677
       },
-      "genres" : [ "contemporary country", "country", "country road", "lift kit", "modern country rock" ],
-      "href" : "https://api.spotify.com/v1/artists/6ghiFYcwn2Vzl6K50U0UPz",
-      "id" : "6ghiFYcwn2Vzl6K50U0UPz",
+      "genres" : [ "boy band", "dance pop", "dance rock", "new wave pop", "pop christmas", "soft rock" ],
+      "href" : "https://api.spotify.com/v1/artists/19ra5tSw0tWufvUp8GotLo",
+      "id" : "19ra5tSw0tWufvUp8GotLo",
       "images" : [ {
-        "height" : 1000,
-        "url" : "https://i.scdn.co/image/d2d7c3e248dfd5d69bf25e887efd23ea52b4eb66",
-        "width" : 1000
+        "height" : 1279,
+        "url" : "https://i.scdn.co/image/d3609d12d1ba580782d9c8e6aeb6859975078a2d",
+        "width" : 853
       }, {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/2aa8a311be1b869b75874a914779b35aed743694",
+        "height" : 960,
+        "url" : "https://i.scdn.co/image/a52949547c90f60b64730331f34ca64194306045",
         "width" : 640
       }, {
-        "height" : 200,
-        "url" : "https://i.scdn.co/image/dfb59b9db6328ea3aa525b38cc0326e031f8af88",
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/f7cea602f212efe4f32a7ecc2102792cabd91be5",
         "width" : 200
       }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/dfa70331cbe5f8363007bd20341e73e176e451ed",
+        "height" : 96,
+        "url" : "https://i.scdn.co/image/2fb92ca4b4b4a34717647217e815cd19326d3f49",
         "width" : 64
       } ],
-      "name" : "Michael Ray",
-      "popularity" : 63,
+      "name" : "George Michael",
+      "popularity" : 72,
       "type" : "artist",
-      "uri" : "spotify:artist:6ghiFYcwn2Vzl6K50U0UPz"
+      "uri" : "spotify:artist:19ra5tSw0tWufvUp8GotLo"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/1HcAkAeL4xf02wzAnl7mIV"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 13374
+      },
+      "genres" : [ "big room", "deep big room", "deep tropical house", "edm", "electro house", "progressive electro house", "progressive house", "tropical house" ],
+      "href" : "https://api.spotify.com/v1/artists/1HcAkAeL4xf02wzAnl7mIV",
+      "id" : "1HcAkAeL4xf02wzAnl7mIV",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/7616d1f1860119a17fbade0fb2ee622765154046",
+        "width" : 640
+      }, {
+        "height" : 320,
+        "url" : "https://i.scdn.co/image/23e8721118eddc74e54d24f9df9012d796a2dd30",
+        "width" : 320
+      }, {
+        "height" : 160,
+        "url" : "https://i.scdn.co/image/89e877276f193cc53a9f9ae43dc8253dc581b650",
+        "width" : 160
+      } ],
+      "name" : "Michael Brun",
+      "popularity" : 61,
+      "type" : "artist",
+      "uri" : "spotify:artist:1HcAkAeL4xf02wzAnl7mIV"
     }, {
       "external_urls" : {
         "spotify" : "https://open.spotify.com/artist/0bzfPKdbXL5ezYW2z3UGQj"
       },
       "followers" : {
         "href" : null,
-        "total" : 277170
+        "total" : 280319
       },
       "genres" : [ "chamber pop", "funk", "indie r&b", "neo soul", "soul" ],
       "href" : "https://api.spotify.com/v1/artists/0bzfPKdbXL5ezYW2z3UGQj",
@@ -131,75 +159,203 @@ export const EULAS: Spotify[] = [
       "uri" : "spotify:artist:0bzfPKdbXL5ezYW2z3UGQj"
     }, {
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/19ra5tSw0tWufvUp8GotLo"
+        "spotify" : "https://open.spotify.com/artist/4CuipEvwcoQggmCV8jpKF9"
       },
       "followers" : {
         "href" : null,
-        "total" : 487016
+        "total" : 59321
       },
-      "genres" : [ "boy band", "dance pop", "dance rock", "mellow gold", "new wave pop", "pop christmas", "soft rock" ],
-      "href" : "https://api.spotify.com/v1/artists/19ra5tSw0tWufvUp8GotLo",
-      "id" : "19ra5tSw0tWufvUp8GotLo",
+      "genres" : [ "big room", "deep big room", "deep groove house", "deep tropical house", "disco house", "edm", "electro house", "house", "progressive electro house", "progressive house", "tropical house" ],
+      "href" : "https://api.spotify.com/v1/artists/4CuipEvwcoQggmCV8jpKF9",
+      "id" : "4CuipEvwcoQggmCV8jpKF9",
+      "images" : [ {
+        "height" : 645,
+        "url" : "https://i.scdn.co/image/c1bccb729f7a3269580dce4f2282f78a6870c2dc",
+        "width" : 1000
+      }, {
+        "height" : 413,
+        "url" : "https://i.scdn.co/image/39fc12b4079b63fbe551c1f14a39fd74054c3416",
+        "width" : 640
+      }, {
+        "height" : 129,
+        "url" : "https://i.scdn.co/image/42763a476bc390e5c81961ca4ee751e47c61fd01",
+        "width" : 200
+      }, {
+        "height" : 41,
+        "url" : "https://i.scdn.co/image/fd2fae33c2f6bc161b260c7facecf4600049af29",
+        "width" : 64
+      } ],
+      "name" : "Michael Calfan",
+      "popularity" : 61,
+      "type" : "artist",
+      "uri" : "spotify:artist:4CuipEvwcoQggmCV8jpKF9"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/6YHEMoNPbcheiWS2haGzkn"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 191575
+      },
+      "genres" : [ "adult standards", "mellow gold", "soft rock" ],
+      "href" : "https://api.spotify.com/v1/artists/6YHEMoNPbcheiWS2haGzkn",
+      "id" : "6YHEMoNPbcheiWS2haGzkn",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/5bbc584aafae22616f851d02cee0c9cc2a089953",
+        "width" : 640
+      }, {
+        "height" : 320,
+        "url" : "https://i.scdn.co/image/cf36bbdedabf8b28c860f0927afccf80e6d34261",
+        "width" : 320
+      }, {
+        "height" : 160,
+        "url" : "https://i.scdn.co/image/72e7ab97e6dd040765e9d50fed5e8a075a8f8ca8",
+        "width" : 160
+      } ],
+      "name" : "Michael Bolton",
+      "popularity" : 64,
+      "type" : "artist",
+      "uri" : "spotify:artist:6YHEMoNPbcheiWS2haGzkn"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/771qBvjnXOH9Azr6lKy6FB"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 10633
+      },
+      "genres" : [ "disco", "new wave pop", "soft rock" ],
+      "href" : "https://api.spotify.com/v1/artists/771qBvjnXOH9Azr6lKy6FB",
+      "id" : "771qBvjnXOH9Azr6lKy6FB",
       "images" : [ {
         "height" : 1279,
-        "url" : "https://i.scdn.co/image/d3609d12d1ba580782d9c8e6aeb6859975078a2d",
-        "width" : 853
+        "url" : "https://i.scdn.co/image/f545777994a61365718ca313df3a6b7f754d38ce",
+        "width" : 1000
       }, {
-        "height" : 960,
-        "url" : "https://i.scdn.co/image/a52949547c90f60b64730331f34ca64194306045",
+        "height" : 818,
+        "url" : "https://i.scdn.co/image/04e6cb4e4aaea85f1736dd6c1d40028f428b7ee1",
+        "width" : 640
+      }, {
+        "height" : 256,
+        "url" : "https://i.scdn.co/image/8cfd79c608fa67e1c389a5583151e0e9b3e725d3",
+        "width" : 200
+      }, {
+        "height" : 82,
+        "url" : "https://i.scdn.co/image/f355e23fa9ba425f36ba00db97b99b973f8f7936",
+        "width" : 64
+      } ],
+      "name" : "Michael Sembello",
+      "popularity" : 57,
+      "type" : "artist",
+      "uri" : "spotify:artist:771qBvjnXOH9Azr6lKy6FB"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/36a3BbcVBJMiBGeHzpAxHb"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 354
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/36a3BbcVBJMiBGeHzpAxHb",
+      "id" : "36a3BbcVBJMiBGeHzpAxHb",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/f6553847340432912f003f6f1ce0b0e8bf0e4605",
+        "width" : 640
+      }, {
+        "height" : 320,
+        "url" : "https://i.scdn.co/image/111bda876379e74d3767125bb3e7ce2559250c6f",
+        "width" : 320
+      }, {
+        "height" : 160,
+        "url" : "https://i.scdn.co/image/bd3d5a35063bc238969f16730e862ef5d06777ce",
+        "width" : 160
+      } ],
+      "name" : "Michael Kaneko",
+      "popularity" : 56,
+      "type" : "artist",
+      "uri" : "spotify:artist:36a3BbcVBJMiBGeHzpAxHb"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/0FAy2x6lq3wFEMBqxDN8gR"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 1712
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/0FAy2x6lq3wFEMBqxDN8gR",
+      "id" : "0FAy2x6lq3wFEMBqxDN8gR",
+      "images" : [ ],
+      "name" : "Michael Mk.",
+      "popularity" : 36,
+      "type" : "artist",
+      "uri" : "spotify:artist:0FAy2x6lq3wFEMBqxDN8gR"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/7Ir0wjCeuhkHUyPAfNJi2X"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 8410
+      },
+      "genres" : [ "video game music" ],
+      "href" : "https://api.spotify.com/v1/artists/7Ir0wjCeuhkHUyPAfNJi2X",
+      "id" : "7Ir0wjCeuhkHUyPAfNJi2X",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/bcbe6043ef18922cb428ae6692c329a376c74759",
         "width" : 640
       }, {
         "height" : 300,
-        "url" : "https://i.scdn.co/image/f7cea602f212efe4f32a7ecc2102792cabd91be5",
-        "width" : 200
+        "url" : "https://i.scdn.co/image/c3ac447cdf5a9cfe6ffc1c7aed0c27b4459371e6",
+        "width" : 300
       }, {
-        "height" : 96,
-        "url" : "https://i.scdn.co/image/2fb92ca4b4b4a34717647217e815cd19326d3f49",
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/0c7f600237f5b61ea2f4bb84e006394c584d7740",
         "width" : 64
       } ],
-      "name" : "George Michael",
-      "popularity" : 72,
+      "name" : "Michael Salvatori",
+      "popularity" : 58,
       "type" : "artist",
-      "uri" : "spotify:artist:19ra5tSw0tWufvUp8GotLo"
+      "uri" : "spotify:artist:7Ir0wjCeuhkHUyPAfNJi2X"
     }, {
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/7mPcfx7PhnBh6n4HMCd61A"
+        "spotify" : "https://open.spotify.com/artist/2LvhyFvUCDJ7gFuEBOcrM8"
       },
       "followers" : {
         "href" : null,
-        "total" : 95778
+        "total" : 97776
       },
-      "genres" : [ "contemporary country", "country", "country christmas", "country road", "country rock", "modern country rock", "outlaw country", "redneck", "traditional country" ],
-      "href" : "https://api.spotify.com/v1/artists/7mPcfx7PhnBh6n4HMCd61A",
-      "id" : "7mPcfx7PhnBh6n4HMCd61A",
+      "genres" : [ "bow pop", "compositional ambient", "experimental", "fourth world", "minimal", "modern classical", "soundtrack" ],
+      "href" : "https://api.spotify.com/v1/artists/2LvhyFvUCDJ7gFuEBOcrM8",
+      "id" : "2LvhyFvUCDJ7gFuEBOcrM8",
       "images" : [ {
-        "height" : 675,
-        "url" : "https://i.scdn.co/image/7c95c04b391ea7eae48c29f095335803136203c1",
-        "width" : 1000
+        "height" : 254,
+        "url" : "https://i.scdn.co/image/6ae99c97bb92fa4c003a667834a704449ea7837f",
+        "width" : 239
       }, {
-        "height" : 432,
-        "url" : "https://i.scdn.co/image/9818f2aece77c2b1d36bb969d0fd17c1d959a151",
-        "width" : 640
-      }, {
-        "height" : 135,
-        "url" : "https://i.scdn.co/image/ee5201eda65654a1fef17b0d00242fda39bfc399",
+        "height" : 213,
+        "url" : "https://i.scdn.co/image/0a1865649e26dc7d377e4d16447a6e785f0b781d",
         "width" : 200
       }, {
-        "height" : 43,
-        "url" : "https://i.scdn.co/image/a3463963a84b01eecaf4ae94c19c7462a62c2ea3",
+        "height" : 68,
+        "url" : "https://i.scdn.co/image/29380faaf08f28eb6732445f266ad018b287e0ad",
         "width" : 64
       } ],
-      "name" : "John Michael Montgomery",
-      "popularity" : 57,
+      "name" : "Michael Nyman",
+      "popularity" : 56,
       "type" : "artist",
-      "uri" : "spotify:artist:7mPcfx7PhnBh6n4HMCd61A"
+      "uri" : "spotify:artist:2LvhyFvUCDJ7gFuEBOcrM8"
     }, {
       "external_urls" : {
         "spotify" : "https://open.spotify.com/artist/4kLvhMAuCloLxoP1aVM7Lr"
       },
       "followers" : {
         "href" : null,
-        "total" : 74506
+        "total" : 74882
       },
       "genres" : [ "hollywood", "scorecore", "soundtrack", "video game music" ],
       "href" : "https://api.spotify.com/v1/artists/4kLvhMAuCloLxoP1aVM7Lr",
@@ -227,101 +383,13 @@ export const EULAS: Spotify[] = [
       "uri" : "spotify:artist:4kLvhMAuCloLxoP1aVM7Lr"
     }, {
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/1HcAkAeL4xf02wzAnl7mIV"
-      },
-      "followers" : {
-        "href" : null,
-        "total" : 13240
-      },
-      "genres" : [ "big room", "deep big room", "deep tropical house", "edm", "electro house", "progressive electro house", "progressive house", "tropical house" ],
-      "href" : "https://api.spotify.com/v1/artists/1HcAkAeL4xf02wzAnl7mIV",
-      "id" : "1HcAkAeL4xf02wzAnl7mIV",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/7616d1f1860119a17fbade0fb2ee622765154046",
-        "width" : 640
-      }, {
-        "height" : 320,
-        "url" : "https://i.scdn.co/image/23e8721118eddc74e54d24f9df9012d796a2dd30",
-        "width" : 320
-      }, {
-        "height" : 160,
-        "url" : "https://i.scdn.co/image/89e877276f193cc53a9f9ae43dc8253dc581b650",
-        "width" : 160
-      } ],
-      "name" : "Michael Brun",
-      "popularity" : 61,
-      "type" : "artist",
-      "uri" : "spotify:artist:1HcAkAeL4xf02wzAnl7mIV"
-    }, {
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/1mHuZMOP8FG5ip4yAb1vrB"
-      },
-      "followers" : {
-        "href" : null,
-        "total" : 74650
-      },
-      "genres" : [ ],
-      "href" : "https://api.spotify.com/v1/artists/1mHuZMOP8FG5ip4yAb1vrB",
-      "id" : "1mHuZMOP8FG5ip4yAb1vrB",
-      "images" : [ {
-        "height" : 662,
-        "url" : "https://i.scdn.co/image/c85e0d2033221710cf7d224083926686d74cb681",
-        "width" : 1000
-      }, {
-        "height" : 424,
-        "url" : "https://i.scdn.co/image/d864e5839a19435715dc140f083aeb0ae6f21600",
-        "width" : 640
-      }, {
-        "height" : 132,
-        "url" : "https://i.scdn.co/image/fca44bc5995eb224b4496f82f3b338d14abaffd5",
-        "width" : 199
-      }, {
-        "height" : 42,
-        "url" : "https://i.scdn.co/image/5bd9d0ddfd75296ff3f9be5466f9d734ba34a71e",
-        "width" : 63
-      } ],
-      "name" : "Michael Franti & Spearhead",
-      "popularity" : 58,
-      "type" : "artist",
-      "uri" : "spotify:artist:1mHuZMOP8FG5ip4yAb1vrB"
-    }, {
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/7Ir0wjCeuhkHUyPAfNJi2X"
-      },
-      "followers" : {
-        "href" : null,
-        "total" : 8388
-      },
-      "genres" : [ "video game music" ],
-      "href" : "https://api.spotify.com/v1/artists/7Ir0wjCeuhkHUyPAfNJi2X",
-      "id" : "7Ir0wjCeuhkHUyPAfNJi2X",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/bcbe6043ef18922cb428ae6692c329a376c74759",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/c3ac447cdf5a9cfe6ffc1c7aed0c27b4459371e6",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/0c7f600237f5b61ea2f4bb84e006394c584d7740",
-        "width" : 64
-      } ],
-      "name" : "Michael Salvatori",
-      "popularity" : 58,
-      "type" : "artist",
-      "uri" : "spotify:artist:7Ir0wjCeuhkHUyPAfNJi2X"
-    }, {
-      "external_urls" : {
         "spotify" : "https://open.spotify.com/artist/5aBxFPaaGk9204ssHUvXWN"
       },
       "followers" : {
         "href" : null,
-        "total" : 130994
+        "total" : 131531
       },
-      "genres" : [ "ccm", "christian alternative rock", "christian christmas", "christian music", "christian relaxative", "christian rock", "world worship", "worship" ],
+      "genres" : [ "ccm", "christian alternative rock", "christian christmas", "christian music", "christian relaxative", "christian rock", "worship" ],
       "href" : "https://api.spotify.com/v1/artists/5aBxFPaaGk9204ssHUvXWN",
       "id" : "5aBxFPaaGk9204ssHUvXWN",
       "images" : [ {
@@ -343,143 +411,99 @@ export const EULAS: Spotify[] = [
       "uri" : "spotify:artist:5aBxFPaaGk9204ssHUvXWN"
     }, {
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/03tfKFHhDoDqF73vCI3cxn"
+        "spotify" : "https://open.spotify.com/artist/68bqsIINo5RFICYwbkChbb"
       },
       "followers" : {
         "href" : null,
-        "total" : 9968
+        "total" : 6916
       },
-      "genres" : [ "contemporary country", "country road", "lift kit", "modern country rock" ],
-      "href" : "https://api.spotify.com/v1/artists/03tfKFHhDoDqF73vCI3cxn",
-      "id" : "03tfKFHhDoDqF73vCI3cxn",
+      "genres" : [ "scorecore", "soundtrack", "video game music" ],
+      "href" : "https://api.spotify.com/v1/artists/68bqsIINo5RFICYwbkChbb",
+      "id" : "68bqsIINo5RFICYwbkChbb",
       "images" : [ {
         "height" : 1000,
-        "url" : "https://i.scdn.co/image/7af248abd151562bdaa09b8d3a0189ffc8c9f3b7",
+        "url" : "https://i.scdn.co/image/0b70198e2e7e5a1453e2d19f5a5886801adea995",
         "width" : 1000
       }, {
         "height" : 640,
-        "url" : "https://i.scdn.co/image/6347d7841bc8129fcd3309dcfe13227658364db1",
+        "url" : "https://i.scdn.co/image/ceb0c4908defdac2440d73a2bae1ca56b716069c",
         "width" : 640
       }, {
         "height" : 200,
-        "url" : "https://i.scdn.co/image/456a69f6117c05a3a4865eb0a3a9e8a6cfc867cd",
+        "url" : "https://i.scdn.co/image/5b12fe93b72cd5f2c51ff952e62389a2fe57671c",
         "width" : 200
       }, {
         "height" : 64,
-        "url" : "https://i.scdn.co/image/511ed51d58d5cdfb1e4edc09d32af8b511143be7",
+        "url" : "https://i.scdn.co/image/4824cb103c7220ed41cbcc645707a05a54a48cf2",
         "width" : 64
       } ],
-      "name" : "William Michael Morgan",
-      "popularity" : 52,
+      "name" : "Michael Kamen",
+      "popularity" : 56,
       "type" : "artist",
-      "uri" : "spotify:artist:03tfKFHhDoDqF73vCI3cxn"
+      "uri" : "spotify:artist:68bqsIINo5RFICYwbkChbb"
     }, {
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/28Sr4vp0O8AUev71GXxlBq"
+        "spotify" : "https://open.spotify.com/artist/0r3oYkStfoV3sVeoQ1vmtw"
       },
       "followers" : {
         "href" : null,
-        "total" : 24935
+        "total" : 6
       },
       "genres" : [ ],
-      "href" : "https://api.spotify.com/v1/artists/28Sr4vp0O8AUev71GXxlBq",
-      "id" : "28Sr4vp0O8AUev71GXxlBq",
+      "href" : "https://api.spotify.com/v1/artists/0r3oYkStfoV3sVeoQ1vmtw",
+      "id" : "0r3oYkStfoV3sVeoQ1vmtw",
       "images" : [ {
         "height" : 640,
-        "url" : "https://i.scdn.co/image/78b4a065bed0efc738cca0ac365a970f90122700",
+        "url" : "https://i.scdn.co/image/f31e8d7acd391c3bfbf4b4eb22df4367915829a4",
         "width" : 640
       }, {
         "height" : 300,
-        "url" : "https://i.scdn.co/image/29ae2bf5df0cda8d1b72620fa2f99282f3d4868f",
+        "url" : "https://i.scdn.co/image/f44b1eace2f013b3834e32be0346e5804a0147cc",
         "width" : 300
       }, {
         "height" : 64,
-        "url" : "https://i.scdn.co/image/a01bded8c31b102988fa63e0c34602b8fdd31dc1",
+        "url" : "https://i.scdn.co/image/ce1b1ed321089a818ab091437a2838209f9df27e",
         "width" : 64
       } ],
-      "name" : "Michael Popov",
-      "popularity" : 49,
+      "name" : "Michael Lange",
+      "popularity" : 45,
       "type" : "artist",
-      "uri" : "spotify:artist:28Sr4vp0O8AUev71GXxlBq"
+      "uri" : "spotify:artist:0r3oYkStfoV3sVeoQ1vmtw"
     }, {
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/6YHEMoNPbcheiWS2haGzkn"
+        "spotify" : "https://open.spotify.com/artist/4wU6zFiIHLcMt9JMMo4W6v"
       },
       "followers" : {
         "href" : null,
-        "total" : 190084
+        "total" : 398
       },
-      "genres" : [ "adult standards", "mellow gold", "new wave pop", "soft rock" ],
-      "href" : "https://api.spotify.com/v1/artists/6YHEMoNPbcheiWS2haGzkn",
-      "id" : "6YHEMoNPbcheiWS2haGzkn",
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/4wU6zFiIHLcMt9JMMo4W6v",
+      "id" : "4wU6zFiIHLcMt9JMMo4W6v",
       "images" : [ {
         "height" : 640,
-        "url" : "https://i.scdn.co/image/5bbc584aafae22616f851d02cee0c9cc2a089953",
+        "url" : "https://i.scdn.co/image/7910fd088d917c1c49a9131a933633058ed17c15",
         "width" : 640
       }, {
-        "height" : 320,
-        "url" : "https://i.scdn.co/image/cf36bbdedabf8b28c860f0927afccf80e6d34261",
-        "width" : 320
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/866be6602211d655e1a6649a0747d5c506e6f16d",
+        "width" : 300
       }, {
-        "height" : 160,
-        "url" : "https://i.scdn.co/image/72e7ab97e6dd040765e9d50fed5e8a075a8f8ca8",
-        "width" : 160
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/4585bd4f216fe8a493a435114aa3dbd48ed70299",
+        "width" : 64
       } ],
-      "name" : "Michael Bolton",
-      "popularity" : 63,
+      "name" : "Michael Andrews",
+      "popularity" : 55,
       "type" : "artist",
-      "uri" : "spotify:artist:6YHEMoNPbcheiWS2haGzkn"
-    }, {
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/2fPpoCU3oYJkQERSp1nXY2"
-      },
-      "followers" : {
-        "href" : null,
-        "total" : 153
-      },
-      "genres" : [ "broadway" ],
-      "href" : "https://api.spotify.com/v1/artists/2fPpoCU3oYJkQERSp1nXY2",
-      "id" : "2fPpoCU3oYJkQERSp1nXY2",
-      "images" : [ ],
-      "name" : "Michael Park",
-      "popularity" : 52,
-      "type" : "artist",
-      "uri" : "spotify:artist:2fPpoCU3oYJkQERSp1nXY2"
-    }, {
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/24hJWbo98sH84tb0nkeaqy"
-      },
-      "followers" : {
-        "href" : null,
-        "total" : 65266
-      },
-      "genres" : [ "adult standards", "classic funk rock", "disco", "mellow gold", "pop christmas", "quiet storm", "smooth jazz", "soft rock", "soul christmas" ],
-      "href" : "https://api.spotify.com/v1/artists/24hJWbo98sH84tb0nkeaqy",
-      "id" : "24hJWbo98sH84tb0nkeaqy",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/10886b9edaa37461aad63ada30157396bb49188d",
-        "width" : 640
-      }, {
-        "height" : 320,
-        "url" : "https://i.scdn.co/image/7e622209f1da6f681ea5e6f63cd92ea410b9dd1d",
-        "width" : 320
-      }, {
-        "height" : 160,
-        "url" : "https://i.scdn.co/image/ab9663f357062266169594f85d40608a7ed094b4",
-        "width" : 160
-      } ],
-      "name" : "Michael McDonald",
-      "popularity" : 56,
-      "type" : "artist",
-      "uri" : "spotify:artist:24hJWbo98sH84tb0nkeaqy"
+      "uri" : "spotify:artist:4wU6zFiIHLcMt9JMMo4W6v"
     }, {
       "external_urls" : {
         "spotify" : "https://open.spotify.com/artist/00oL7zWxmWveTsKF7DnIRd"
       },
       "followers" : {
         "href" : null,
-        "total" : 5042
+        "total" : 5091
       },
       "genres" : [ ],
       "href" : "https://api.spotify.com/v1/artists/00oL7zWxmWveTsKF7DnIRd",
@@ -503,94 +527,70 @@ export const EULAS: Spotify[] = [
       "uri" : "spotify:artist:00oL7zWxmWveTsKF7DnIRd"
     }, {
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/13ab1LgQZ3tQOhkDRRYB8Y"
+        "spotify" : "https://open.spotify.com/artist/3IqoFUpoJi1qvebL8Vi2aK"
       },
       "followers" : {
         "href" : null,
-        "total" : 12899
+        "total" : 11862
       },
-      "genres" : [ "deep chiptune", "scorecore", "video game music" ],
-      "href" : "https://api.spotify.com/v1/artists/13ab1LgQZ3tQOhkDRRYB8Y",
-      "id" : "13ab1LgQZ3tQOhkDRRYB8Y",
+      "genres" : [ "fingerstyle" ],
+      "href" : "https://api.spotify.com/v1/artists/3IqoFUpoJi1qvebL8Vi2aK",
+      "id" : "3IqoFUpoJi1qvebL8Vi2aK",
       "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/614d5782eee749591aec984f8eea8b35304f3f52",
+        "height" : 1162,
+        "url" : "https://i.scdn.co/image/e2d3b0444640286fea8d0dda58264f238f444747",
+        "width" : 816
+      }, {
+        "height" : 911,
+        "url" : "https://i.scdn.co/image/4420d6e2827ac3b416193e56c426b2e053e49623",
         "width" : 640
       }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/2ad021103041a46f262debd018e26d9ccffbe253",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/9648356579835b4839f7f4f718c3c9bbd6368cfb",
-        "width" : 64
-      } ],
-      "name" : "Mick Gordon",
-      "popularity" : 56,
-      "type" : "artist",
-      "uri" : "spotify:artist:13ab1LgQZ3tQOhkDRRYB8Y"
-    }, {
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/6vgqbvuLEUcrg7SB1kRTYE"
-      },
-      "followers" : {
-        "href" : null,
-        "total" : 34539
-      },
-      "genres" : [ "contemporary country", "country", "country christmas", "country road", "lift kit", "modern country rock", "redneck" ],
-      "href" : "https://api.spotify.com/v1/artists/6vgqbvuLEUcrg7SB1kRTYE",
-      "id" : "6vgqbvuLEUcrg7SB1kRTYE",
-      "images" : [ {
-        "height" : 800,
-        "url" : "https://i.scdn.co/image/9ef571277be94de8f18d1d6804f0adf22aab6d9e",
-        "width" : 533
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/7257c063cda94a40fff96103d7f89f419a8600a7",
+        "height" : 285,
+        "url" : "https://i.scdn.co/image/2124609c4f9e6950ef5918e82d6821dae6af47e6",
         "width" : 200
       }, {
-        "height" : 96,
-        "url" : "https://i.scdn.co/image/72efc454f0c34c3929e6ae6d99be60bcf3554aaf",
+        "height" : 91,
+        "url" : "https://i.scdn.co/image/14f08b8c60160f13d36355e18533f4c69dbe8826",
         "width" : 64
       } ],
-      "name" : "Jason Michael Carroll",
-      "popularity" : 49,
+      "name" : "Michael Hedges",
+      "popularity" : 48,
       "type" : "artist",
-      "uri" : "spotify:artist:6vgqbvuLEUcrg7SB1kRTYE"
+      "uri" : "spotify:artist:3IqoFUpoJi1qvebL8Vi2aK"
     }, {
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/20kfuHRmnkBvaCJmDdwT0N"
+        "spotify" : "https://open.spotify.com/artist/5r9Zij3jkM3BXJOjRpkpzF"
       },
       "followers" : {
         "href" : null,
-        "total" : 65
+        "total" : 575
       },
       "genres" : [ ],
-      "href" : "https://api.spotify.com/v1/artists/20kfuHRmnkBvaCJmDdwT0N",
-      "id" : "20kfuHRmnkBvaCJmDdwT0N",
+      "href" : "https://api.spotify.com/v1/artists/5r9Zij3jkM3BXJOjRpkpzF",
+      "id" : "5r9Zij3jkM3BXJOjRpkpzF",
       "images" : [ {
         "height" : 640,
-        "url" : "https://i.scdn.co/image/6749331c03de75dc23d08a3eff8bc27004909925",
+        "url" : "https://i.scdn.co/image/aa4235c227f093564f5c91ab17a6681db0e97460",
         "width" : 640
       }, {
         "height" : 300,
-        "url" : "https://i.scdn.co/image/53a0f5c00ece8b79b4af0a175d278286799a4947",
+        "url" : "https://i.scdn.co/image/6785f7d717c1a0cb1ec7b45cc8b7f992fa3a8478",
         "width" : 300
       }, {
         "height" : 64,
-        "url" : "https://i.scdn.co/image/f9ef3a4f09ecc01b83c804f4a687dfa5603b198d",
+        "url" : "https://i.scdn.co/image/2ef3b5f85cd1c7ee12403b28110b7573abf5dc0a",
         "width" : 64
       } ],
-      "name" : "Michael Reed",
-      "popularity" : 50,
+      "name" : "Michael Bunster",
+      "popularity" : 32,
       "type" : "artist",
-      "uri" : "spotify:artist:20kfuHRmnkBvaCJmDdwT0N"
+      "uri" : "spotify:artist:5r9Zij3jkM3BXJOjRpkpzF"
     } ],
     "limit" : 20,
-    "next" : "https://api.spotify.com/v1/search?query=michael&type=artist&offset=20&limit=20",
+    "next" : "https://api.spotify.com/v1/search?query=michael&type=artist&market=CO&offset=20&limit=20",
     "offset" : 0,
     "previous" : null,
-    "total" : 10565
+    "total" : 10697
   }
 }
 
