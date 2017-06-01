@@ -6,13 +6,19 @@
         <small>
             {{release_date | date }}
         </small>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a routerLink="/">Home</a></li>
+            <li class="breadcrumb-item"><a routerLink="/artists/">Library</a></li>
+            <li class="breadcrumb-item active">Data</li>
+        </ol>
     </div>
 
-    <div class="card-columns">
-            <div class="card" *ngFor="let item of songs">
-                <div class="card-block">
-                    <h4 class="card-title">{{item.name}}</h4>
-                </div>
-            </div>
-      </div>
+    <ul class="list-group">
+        <li class="list-group-item" *ngFor="let item of songs">
+            {{item.name}}
+            <span class="badge badge-default badge-pill">
+                {{ item.duration_ms | date:'mmss'}}
+            </span>
+        </li>
+    </ul>
 </div>

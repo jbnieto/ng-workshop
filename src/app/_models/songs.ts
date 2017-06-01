@@ -17,6 +17,7 @@ export class Songs
   release_date_precision: string;
   tracks: [{
     items: [{
+      duration_ms: Date,
       height : number,
       url : string,
       width : number

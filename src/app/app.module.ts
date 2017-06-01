@@ -28,7 +28,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HomeComponent,
     ArtistsListComponent,
     AlbumsComponent,
-    SongsComponent,
+    SongsComponent
   ],
   providers: [
     AppConfig,
